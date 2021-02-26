@@ -26,7 +26,6 @@ def game_magic(name, games, record, avg_attempts):
         try:
             number = int(input("The Magic number is: "))
             counter += 1
-            print(random_number)
         except ValueError:
             print("\nYou must enter a number.")
             game_magic(input("The Magic number is: "), player_data)
